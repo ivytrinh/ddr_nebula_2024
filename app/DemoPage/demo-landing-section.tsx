@@ -4,7 +4,7 @@ const DemoLandingSection = () => {
   return (
     <div className='relative w-full h-screen py-20'>
       <h1 className='text-primary'>
-        DemoLandingSection
+        Demo Page
       </h1>
     </div>
   )
