@@ -6,7 +6,7 @@ import { useState } from 'react';
 import { ExploreModalFrame } from "@/app/ExplorePage/explore-frame";
 import Modal from '@/app/Components/Modal'
 
-const ExplorelandingSection = () => {
+const ExploreLandingSection = () => {
   const [openModalName, setOpenModalName] = useState<string | null>(null);
 
     const openModal = (name: string) => {
@@ -97,4 +97,4 @@ const ExplorelandingSection = () => {
   )
 }
 
-export default ExplorelandingSection
+export default ExploreLandingSection
