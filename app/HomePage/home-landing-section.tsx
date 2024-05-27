@@ -14,10 +14,10 @@ const HomeLandingSection = () => {
                 style={{ zIndex: -1 }}
             />
       <div className="absolute left-0 right-0 z-10 flex flex-col items-center justify-center align-center">
-        <h1 className='text-primary text-5xl lg:text-8xl mt-[65vh] ml-[5vh]' style={{ letterSpacing: '0.5em' }}>
+        <h1 className='text-primary text-5xl lg:text-8xl mt-[65vh] lg:ml-[5vh]' style={{ letterSpacing: '0.5em' }}>
           NEBULA
         </h1>
-        <p className='text-primary text-sm lg:text-md mt-[3vh]'>
+        <p className='text-primary text-sm lg:text-md mt-[3vh] items-center text-center px-10 '>
           An innovative tool that provides predictive price models for digital artists.
         </p>
       </div>

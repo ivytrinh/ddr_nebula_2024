@@ -20,10 +20,10 @@ const AboutLandingSection = () => {
             Nebula leverages data analytics and machine learning algorithms to empower digital artists with pricing their artwork 
             and maximize their earning potential in the digital art market.
           </p>
-          <h1 className="text-primary sm:text-3xl lg:text-5xl sm:mt-5 lg:mt-10" style={{ letterSpacing: '0.2em' }}>
+          <h1 className="text-primary text-3xl lg:text-5xl sm:mt-5 mt-10" style={{ letterSpacing: '0.2em' }}>
             First Step Towards Shaping an Equitable Zeitgest Movement
           </h1>
-          <p className="text-primary text-sm sm:mt-5 lg:mt-10">
+          <p className="text-primary text-sm sm:mt-5 mt-10">
             No longer do you have to manually calculate the number of work hours or the market value of your crafts, 
             Nebula can assist you in making the right decisions at the right time.
           </p>

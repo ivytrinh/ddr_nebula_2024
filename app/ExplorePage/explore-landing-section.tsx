@@ -19,9 +19,9 @@ const ExploreLandingSection = () => {
 
   
   return (
-    <div className='relative flex flex-col h-screen px-10 lg:px-20 py-20 pb-20'>
+    <div className='relative flex flex-col h-screen px-10 lg:px-20 py-10 lg:py-20 pb-20'>
       <div className='flex flex-col lg:flex-row space-y-10 items-center justify-between text-primary mt-[5vh]'>
-        <h1 className=' text-2xl lg:text-5xl'>
+        <h1 className=' text-3xl lg:text-5xl'>
           Session 4 Group 1
         </h1>
         <p className='text-sm items-center justify-center text-center lg:text-start'>
@@ -31,7 +31,7 @@ const ExploreLandingSection = () => {
         </p>
       </div>
       <div className='flex flex-col lg:flex-row gap-10 mt-10 items-center justify-center'>
-        <div className='container border border-primary rounded-xl w-[400px] h-[400px] lg:h-[520px] cursor-pointer' 
+        <div className='container border border-primary rounded-xl w-[300px] lg:w-[400px] h-[400px] lg:h-[520px] cursor-pointer' 
           onClick={() => openModal("Scraping Data")}>
           <Image
             src="/background_2.svg"
@@ -53,7 +53,7 @@ const ExploreLandingSection = () => {
                     />} 
                 />
             )}
-        <div className='container border border-primary rounded-xl w-[400px] h-[400px] lg:h-[520px] cursor-pointer' 
+        <div className='container border border-primary rounded-xl w-[300px] lg:w-[400px] h-[400px] lg:h-[520px] cursor-pointer' 
           onClick={() => openModal("Analyzing Data")}>
           <Image
               src="/background_2.svg"
@@ -75,7 +75,7 @@ const ExploreLandingSection = () => {
                 />
             )}
 
-        <div className='container border border-primary rounded-xl w-[400px] h-[400px] lg:h-[520px] cursor-pointer' 
+        <div className='container border border-primary rounded-xl w-[300px] lg:w-[400px] h-[400px] lg:h-[520px] cursor-pointer' 
           onClick={() => openModal("Publishing Data")}>
           <Image
               src="/background_2.svg"

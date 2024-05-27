@@ -22,7 +22,7 @@ const Modal: React.FC<ModalProps> = ({ closed, component }) => {
                 <p className="text-primary text-xl lg:text-3xl">X</p>
               </div>
             </div>
-            <div className=" max-w-[60vw] lg:max-w-[50vw] max-h-[50vh] lg:max-h-[40vh]">
+            <div className=" max-w-[70vw] lg:max-w-[50vw] max-h-[40vh] lg:max-h-[40vh]">
               {component}
             </div>
           </div>
