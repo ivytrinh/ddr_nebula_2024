@@ -19,10 +19,10 @@ const Modal: React.FC<ModalProps> = ({ closed, component }) => {
                 className="hover:cursor-pointer"
                 onClick={() => closed(true)}
               >
-                <p className="text-primary text-3xl">X</p>
+                <p className="text-primary text-xl lg:text-3xl">X</p>
               </div>
             </div>
-            <div className="max-w-[50vw] max-h-[40vh]">
+            <div className=" max-w-[60vw] lg:max-w-[50vw] max-h-[50vh] lg:max-h-[40vh]">
               {component}
             </div>
           </div>
