@@ -6,7 +6,7 @@ import { useState } from 'react';
 import { ExploreModalFrame } from "@/app/ExplorePage/explore-frame";
 import Modal from '@/app/Components/Modal'
 
-const ExplorelandingSection = () => {
+const ExploreLandingSection = () => {
   const [openModalName, setOpenModalName] = useState<string | null>(null);
 
     const openModal = (name: string) => {
@@ -19,18 +19,20 @@ const ExplorelandingSection = () => {
 
   
   return (
-    <div className='relative flex flex-col h-screen px-20 py-20'>
-      <div className='flex flex-row items-center justify-between text-primary mt-[5vh]'>
-        <p className='text-sm'>
-          No longer do you have to manually calculate the number of work hours or the market value of your crafts, 
-          <span> Nebula can assist you in making the right decisions at the right time.  </span>
-        </p>
-        <h1 className='text-4xl'>
+    <div className='relative flex flex-col h-screen px-10 lg:px-20 py-20 pb-20'>
+      <div className='flex flex-col lg:flex-row space-y-10 items-center justify-between text-primary mt-[5vh]'>
+        <h1 className=' text-2xl lg:text-5xl'>
           Session 4 Group 1
         </h1>
+        <p className='text-sm items-center justify-center text-center lg:text-start'>
+          We are a team of students transforming the art market with Nebula, a tool for predicting digital art prices.
+          <span className="hidden sm:inline"><br /></span>
+          <span> By analyzing data from various sources, we provide artists and collectors with accurate insights.</span>
+        </p>
       </div>
-      <div className='flex flex-row gap-10 mt-10'>
-        <div className='container border border-primary rounded-xl w-[400px] h-[520px] cursor-pointer' onClick={() => openModal("Scraping Data")}>
+      <div className='flex flex-col lg:flex-row gap-10 mt-10 items-center justify-center'>
+        <div className='container border border-primary rounded-xl w-[400px] h-[400px] lg:h-[520px] cursor-pointer' 
+          onClick={() => openModal("Scraping Data")}>
           <Image
             src="/background_2.svg"
             alt="Background 2"
@@ -38,7 +40,7 @@ const ExplorelandingSection = () => {
             height={520}
             className='rounded-xl'
           />
-          <h2 className='text-primary text-3xl px-5 items-end mt-[28vh]'> 
+          <h2 className='text-primary text-3xl px-5 items-end mt-[17vh] lg:mt-[28vh]'> 
             Scraping Data 
           </h2>
         </div>
@@ -51,7 +53,8 @@ const ExplorelandingSection = () => {
                     />} 
                 />
             )}
-        <div className='container border border-primary rounded-xl w-[400px] h-[520px]' onClick={() => openModal("Analyzing Data")}>
+        <div className='container border border-primary rounded-xl w-[400px] h-[400px] lg:h-[520px] cursor-pointer' 
+          onClick={() => openModal("Analyzing Data")}>
           <Image
               src="/background_2.svg"
               alt="Background 2"
@@ -59,7 +62,7 @@ const ExplorelandingSection = () => {
               height={520}
               className='rounded-xl'
           />
-          <h2 className='text-primary text-3xl px-5 items-end mt-[28vh]'> 
+          <h2 className='text-primary text-3xl px-5 items-end mt-[17vh] lg:mt-[28vh]'> 
             Analyzing Data 
           </h2>
         </div>
@@ -72,7 +75,8 @@ const ExplorelandingSection = () => {
                 />
             )}
 
-        <div className='container border border-primary rounded-xl w-[400px] h-[520px]' onClick={() => openModal("Publishing Data")}>
+        <div className='container border border-primary rounded-xl w-[400px] h-[400px] lg:h-[520px] cursor-pointer' 
+          onClick={() => openModal("Publishing Data")}>
           <Image
               src="/background_2.svg"
               alt="Background 2"
@@ -80,7 +84,7 @@ const ExplorelandingSection = () => {
               height={520}
               className='rounded-xl'
           />
-          <h2 className='text-primary text-3xl px-5 items-end mt-[28vh]'> 
+          <h2 className='text-primary text-3xl px-5 items-end mt-[17vh] lg:mt-[28vh]'> 
             Publishing Data 
           </h2>
         </div>
@@ -97,4 +101,4 @@ const ExplorelandingSection = () => {
   )
 }
 
-export default ExplorelandingSection
+export default ExploreLandingSection

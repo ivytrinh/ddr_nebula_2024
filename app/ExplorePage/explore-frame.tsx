@@ -11,8 +11,8 @@ interface ExploreFrameProps {
 export const ExploreModalFrame = ({name, description}: ExploreFrameProps) => {
     return (
         <div className="flex flex-col">
-            <p className="text-primary text-4xl pt-[2vh] pb-[2vh]">{name}</p>
-            <p className="text-primary text-md pt-[2vh] pb-[2vh] font-thin">{description}</p>
+            <p className="text-primary text-3xl lg:text-4xl pt-[1vh] lg:pt-[2vh] pb-[2vh]">{name}</p>
+            <p className="text-primary text-sm lg:text-md lg:pt-[2vh] pb-[2vh] font-thin">{description}</p>
         </div>
     )
 }
