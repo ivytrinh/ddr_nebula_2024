@@ -6,7 +6,7 @@ interface CarouselFramesProps {
     frames: React.ReactNode[];
 }
 
-export const MenuCarousel: React.FC<CarouselFramesProps> = ({ frames }) => {
+export const Carousel: React.FC<CarouselFramesProps> = ({ frames }) => {
     const carouselRef = useRef<HTMLDivElement>(null);
 
     const scrollLeft = () => {

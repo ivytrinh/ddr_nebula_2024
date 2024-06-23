@@ -6,7 +6,7 @@ import { usePathname } from 'next/navigation';
 import classnames from 'classnames';
 import { TfiClose } from 'react-icons/tfi';
 import { CiMenuFries } from 'react-icons/ci';
-import { useRef } from 'react';
+
 
 interface NavBarProps {
   scrollToSection: (section: string) => void;
