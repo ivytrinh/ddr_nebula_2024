@@ -8,7 +8,7 @@ const AboutLandingSection = () => {
   return (
     <div className="relative w-full h-screen px-20">
       <Image
-          src="/background_2.svg"
+          src="/PageImages/background_2.svg"
           alt="Background 2"
           layout="fill"
           objectFit="cover"

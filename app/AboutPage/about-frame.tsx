@@ -4,7 +4,7 @@ interface AboutFrameProps {
     Description2: string;
 }
 
-export const MenuFrame = ({ Description1, Qoute, Description2 }: AboutFrameProps) => {
+export const AboutFrame = ({ Description1, Qoute, Description2 }: AboutFrameProps) => {
     
     return (
         <div className="flex flex-col min-h-[25vh] w-[30vh] items-center justify-center rounded-2xl bg-base-color-alt/60 hover:border-primary hover:border-2 cursor-pointer">
